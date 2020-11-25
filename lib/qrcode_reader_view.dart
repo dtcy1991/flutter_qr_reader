@@ -207,22 +207,23 @@ class QrcodeReaderViewState extends State<QrcodeReaderView>
                 crossAxisAlignment: CrossAxisAlignment.center,
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: <Widget>[
-                  GestureDetector(
-                    behavior: HitTestBehavior.translucent,
-                    onTap: _scanImage,
-                    child: Container(
-                      width: 45,
-                      height: 45,
-                      alignment: Alignment.center,
-                      child: Image.asset(
-                        "assets/tool_img.png",
-                        package: "flutter_qr_reader",
-                        width: 25,
-                        height: 25,
-                        color: Colors.white54,
-                      ),
-                    ),
-                  ),
+//                  GestureDetector(
+//                    behavior: HitTestBehavior.translucent,
+//                    onTap: _scanImage,
+//                    child: Container(
+//                      width: 45,
+//                      height: 45,
+//                      alignment: Alignment.center,
+//                      child: Image.asset(
+//                        "assets/tool_img.png",
+//                        package: "flutter_qr_reader",
+//                        width: 25,
+//                        height: 25,
+//                        color: Colors.white54,
+//                      ),
+//                    ),
+//                  ),
+                  SizedBox(width: 45, height: 45),
                   Container(
                     width: 80,
                     height: 80,
